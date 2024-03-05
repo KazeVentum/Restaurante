@@ -1,0 +1,428 @@
+body{
+    background-color: rgb(39, 39, 44) !important;
+    font-family: "calibri";
+}
+.header {
+    background-color: #0d0a0a; /* Color de fondo del header */
+    color: #bcd5fd; /* Color del texto */
+    text-align: center; /* Centra el texto horizontalmente */
+    padding: 20px 0; /* Añade espacio interno alrededor del contenido del header */
+}
+
+.title {
+    margin: 0; /* Elimina el margen por defecto */
+}
+
+
+
+
+.formIngresar{
+    margin-top: 2px;
+    width: 400px;
+    height: 450px;
+    background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(36,48,60,1) 47%, rgb(2, 168, 201)100%);
+    background-size: 400% 400%;
+    position: relative;
+    animation: gradienteEditar 8.4s infinite;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 7px 13px 37px #464646;
+}
+
+.formIngresar h4{
+    margin-top: 15px; 
+    margin-bottom: 15px; 
+    text-align: center;
+    color: white;
+    font-size: 22px;
+    margin-bottom: 20px
+}
+
+.controls{
+    width: 100%;
+    color: white;
+    background-color: #24303c;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    border: 1px solid #1f53c5;
+    font-size: 18px;
+}
+
+.formEliminar{
+    margin-top: 2px;
+    width: 400px;
+    height: 450px;
+    background: linear-gradient(317deg, rgba(2,0,36,1) 0%, rgba(36,48,60,1) 47%, rgb(2, 168, 201)100%);
+    background-size: 400% 400%;
+    position: relative;
+    animation: gradienteEditar 8.4s infinite;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 7px 13px 37px #464646;
+    
+}
+
+
+.formEliminar h4{    
+    margin-top: 105px; 
+    text-align: center;
+    color: white;
+    font-size: 22px;
+    margin-bottom: 20px
+}
+.controlsTwo{
+    width: 100%;
+    background-color: #24303c;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    border: 1px solid #1f53c5;
+    font-size: 18px;
+}
+
+.formEditar {
+    width: 400px;
+    height: 450px;
+    margin-top: 2px;
+    background: linear-gradient(45deg, rgba(2,0,36,1) 0%, rgba(36,48,60,1) 47%, rgb(2, 168, 201) 100%);
+    background-size: 400% 400%;
+    position: relative;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 7px 13px 37px #464646;
+    animation: gradienteEditar 8s infinite;
+}
+
+@keyframes gradienteEditar {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position:0% 50%;
+    }
+    
+}
+
+.formEditar h4{    
+    text-align: center;
+    color: white;
+    font-size: 22px;
+    margin-bottom: 20px
+}
+
+.controlsThree{
+    width: 100%;
+    background-color: #24303c;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    border: 1px solid #1f53c5;
+    font-size: 18px;
+}
+
+
+
+#forms {
+    background: linear-gradient(45deg, #f5f7fa 0%, #6e747f 81%);
+    background-size: 400% 400%;
+    position: relative;
+    margin-top: 35px;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 7px 13px 37px #100e2f;
+    animation: gradiente 5s ease infinite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+@keyframes gradiente {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+    
+}
+
+#Botones2 {
+    display: flex;
+    justify-content: center;
+}
+
+#actualizarPlatoBtn {
+    margin-top: 10px;
+    padding: 10px 20px;
+    border: none;
+    background-color: #3090e4; /* Color de fondo */
+    color: rgb(33, 32, 32);
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Efecto de transición en hover */
+}
+
+#actualizarPlatoBtn:hover {
+    background-color: #656a22; 
+    color: rgb(241, 238, 255);
+    animation: gradiente 5s ease infinite; 
+}
+
+#Botones {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px; /* Ajusta según sea necesario */
+}
+#enviarPlatoBtn {
+    margin-top: 10px;
+    padding: -20px 20px 15px;
+    border: none;
+    background-color: #3090e4; /* Color de fondo */
+    color: rgb(33, 32, 32);
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Efecto de transición en hover */
+}
+
+#enviarPlatoBtn:hover {
+    background-color: #24780f;
+    color: rgb(241, 238, 255); 
+}
+
+
+#eliminarPlatoBtn {
+    padding: 10px 20px;
+    border: none;
+    background-color: #3090e4; /* Color de fondo */
+    color: rgb(33, 32, 32);
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Efecto de transición en hover */
+}
+
+#eliminarPlatoBtn:hover {
+    background-color: #7a1313;
+    color: rgb(241, 238, 255); 
+}
+
+
+
+.SaveDeleteEdit {
+    background-color: rgb(205, 245, 172);
+    display: flex;
+}
+
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.container > div {
+    margin: 0 10px;
+}
+
+
+
+@media screen and (max-width: 1000px) {
+    .formGroup{
+        padding: 5px;
+    }
+}
+
+#showDatax {
+    background: linear-gradient(35deg, rgb(176, 178, 179) 35%, rgb(84, 110, 155) 100%);
+    background-size: 400% 400%;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    position: relative;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 7px 13px 37px #100e2f;
+    animation: gradiente 5s ease-in infinite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+@keyframes gradiente {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+    
+}
+
+
+/* TARJETAS */
+
+.site {
+    padding: 5em 0;
+    text-align: center;
+    background-color: #e0e0e0;
+    font-size: .8em;
+    color: #444;
+    position:relative
+  }
+  .site a {
+    color: #000000;
+    text-decoration: none;
+  }
+  .site a:hover {
+    color: #222;
+  }
+  
+  .site nav{
+    position:absolute;
+    top:0;
+    left:0;
+    background:#222;
+    width:100%
+  }
+  .site nav a{
+    padding:10px 30px;
+    font-size:1.3em;
+    display:inline-block
+  }
+  .site nav a:hover{
+    background:#333;
+    color:#fff
+  }
+  
+  
+  .tarjeta{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    width:420px;
+    box-shadow: 2px 2px 8px 4px #d3d3d3d1;
+    border-radius:15px;
+    transform-style: preserve-3d;
+    background: linear-gradient(rgba(175, 118, 118, 0.1),rgba(255, 255, 255, 0.105));
+    border-top: 1px solid rgba(255, 255, 255, 0.5);
+    border-left: 1px solid rgba(255, 255, 255, 0.5);
+    min-height: 45vh;
+    margin: 25px;
+    border-radius: 20px;
+    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.466);
+    place-items: center;
+    display: grid;
+    transition: all 0.75s ease;
+  }
+
+  .tarjeta:hover
+  {
+    box-shadow: 0 20px 50px rgba(255, 237, 237, 0.466);
+  }
+
+  .titulo{
+    font-size: 55px;
+    color: #fff;
+    transition: all 0.50s ease-out;
+    background: rgba(32, 15, 19, 0.432);          
+    padding: 50px;
+    border-radius: 15px;
+    font-family: 'Anton', sans-serif;
+  }
+
+  @keyframes animacion {
+    0%{ background: rgba(76, 0, 130, 0) ;}
+    100%{ background: rgb(76, 0, 130) ;}
+}
+
+  .cuerpo{
+    padding: 10px;
+    width: 100%;
+    box-shadow: 0 20px 50px rgba(255, 255, 255, 0.466);
+  }
+  .pie{
+    background: #323a49;
+    width: 58%;
+    border-radius:15px 15px;
+    padding: 10px;
+    text-align:center;
+    
+  }
+  
+  .pie p{
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+  }
+  .pie a:after {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+    content: ""
+  }
+  
+  #countries-response{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  .button {
+    border-radius: 0.25em;
+    background: #6699ff;
+    cursor: pointer;
+    display: inline-block;
+    font-weight: 500;
+    height: 3em;
+    line-height: 3em;
+    padding: 0 1em;
+  }
+  .pie:hover {
+    color: #000000;
+    background: #657592;
+    box-shadow: 0 20px 50px rgba(255, 237, 237, 0.466);
+  }
+  
+  
+  /* Tu CSS existente aquí */
+  
+  
+  /* Estilos para el campo de búsqueda */
+  #search-input {
+    width: 100%;
+    padding: 10px;
+    margin-left: 85px;
+    margin-right: 85px;
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+    font-size: 16px;
+    box-sizing: border-box; /* Asegura que el padding no afecte el ancho total */
+    background-color: #8b8a899f;
+    color: #fff;
+  }
+  
+  /* Estilos para el placeholder del campo de búsqueda */
+  #search-input::placeholder {
+    color: #ffffff;
+  }
+  
+  /* Estilos para cuando el campo de búsqueda tiene el foco */
+  #search-input:focus {
+    outline: none; /* Elimina el contorno alrededor del campo al enfocarlo */
+    border-color: #6699ff; /* Cambia el color del borde al enfocar el campo */
+  }
+  
+
