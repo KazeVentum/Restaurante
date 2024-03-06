@@ -11,7 +11,7 @@ public class ChristianReto1SpringbootApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(ChristianReto1SpringbootApplication.class, args);
-//		PlatoServiceImp platoServiceImp = contexto.getBean(PlatoServiceImp.class);
+///		PlatoServiceImp platoServiceImp = contexto.getBean(PlatoServiceImp.class);
 ////
 ////		Plato plato = new Plato();
 ////
